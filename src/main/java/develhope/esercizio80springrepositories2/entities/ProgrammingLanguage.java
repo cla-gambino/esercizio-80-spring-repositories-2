@@ -24,4 +24,36 @@ public class ProgrammingLanguage {
 
     @Column(nullable = false, name = "inventor")
     private String inventor;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getFirstAppearance() {
+        return firstAppearance;
+    }
+
+    public void setFirstAppearance(int firstAppearance) {
+        this.firstAppearance = firstAppearance;
+    }
+
+    public String getInventor() {
+        return inventor;
+    }
+
+    public void setInventor(String inventor) {
+        this.inventor = inventor;
+    }
 }
